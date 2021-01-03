@@ -10,8 +10,8 @@ socketio = SocketIO(app)
 def sessions():
     return render_template('session.html')
 
-@app.route('/', methods=['GET', 'POST'])
-def messageReceived():
+
+def messageReceived(methods=['GET', 'POST']):
     print('message was received!!!')
 
 
