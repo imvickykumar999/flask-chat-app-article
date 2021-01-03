@@ -11,7 +11,7 @@ def sessions():
     return render_template('session.html')
 
 @app.route('/', methods=['GET', 'POST'])
-def messageReceived(methods=['GET', 'POST']):
+def messageReceived():
     print('message was received!!!')
 
 
