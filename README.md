@@ -14,6 +14,14 @@ Code for the article published on medium. Corrections are welcome :)
 
 To run the server
 
+    pip install --upgrade pip
+    python -m venv env
+    cd .\env\Scripts
+    activate.bat
+
+> As long as your virtual environment is activated pip will install packages into that specific environment and you’ll be able to import and use packages in your Python application.
+
+    cd ../..
     pip install -r "requirements.txt"
     python main.py
 
